@@ -1,5 +1,23 @@
 @import url(../css/fonts.css);
+@import url(../css/_topnav.css);
+@import url(../icons/all.css);
+
 body,*{
   font-family: IRANYekanX !important;
   font-weight: 500;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+a{
+	text-decoration: none;
+}
+li,ol,ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+p{
+  margin: 0;
+}
+
