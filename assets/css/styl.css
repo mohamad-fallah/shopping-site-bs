@@ -1,0 +1,5 @@
+@import url(../css/fonts.css);
+body,*{
+  font-family: IRANYekanX !important;
+  font-weight: 500;
+}
