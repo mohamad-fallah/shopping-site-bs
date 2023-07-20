@@ -25,4 +25,13 @@ p{
     margin-top: 1rem !important;
   }
 }
+@media (min-width: 1200px) {
+  .container,
+   .container-sm,
+    .container-md,
+     .container-lg,
+      .containerxl {
+    max-width: 1340px !important;
+  }
+}
 

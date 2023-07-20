@@ -1,5 +1,5 @@
 .bg-top-nav{
-    background-color: #03045e;
+    background-color: #191b39;
 }
 .custom-top-nav-left{
     font-size: 14px;
@@ -95,7 +95,7 @@
 }
 ::-webkit-input-placeholder{
     font-size: 1rem;
-    background-color: #00000008;
+    background-color: #0000080c;
     border-radius: 6px;
     padding: 2px;
 }

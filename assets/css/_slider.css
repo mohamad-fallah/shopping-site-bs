@@ -1,4 +1,7 @@
-.img-custom-slider{
-    width: 100%;
-    height: auto;
+.slide-banner{
+    max-width: 200px;
+}
+.custom-col-md-3{
+    flex: 0 0 18.36%;
+    max-width: 18.36%;
 }
