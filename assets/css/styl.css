@@ -25,6 +25,11 @@ p{
     margin-top: 1rem !important;
   }
 }
+@media (max-width: 991px) {
+  .mt-clg-3{
+    margin-top: 1rem !important;
+  }
+}
 @media (min-width: 1200px) {
   .container,
    .container-sm,
