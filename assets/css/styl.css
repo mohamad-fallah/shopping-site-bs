@@ -1,6 +1,6 @@
 @import url(../css/fonts.css);
 @import url(../css/_topnav.css);
-@import url(../icons/all.css);
+@import url(../css/_slider.css);
 
 body,*{
   font-family: IRANYekanX !important;
