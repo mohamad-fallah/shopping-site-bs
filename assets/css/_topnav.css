@@ -88,3 +88,21 @@
     margin-right: 7px;
     color: rgb(56,136,255) !important;
 }
+.custom-navbar-toggler{
+    border: none;
+    color: #fff;
+    font-size: 25px;
+}
+::-webkit-input-placeholder{
+    font-size: 1rem;
+    background-color: #00000008;
+    border-radius: 6px;
+    padding: 2px;
+}
+.search-i-size{
+    font-size: 16px;
+    border-radius: 100%;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-top: 2px;
+}

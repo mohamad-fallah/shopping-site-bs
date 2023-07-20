@@ -20,4 +20,9 @@ li,ol,ul{
 p{
   margin: 0;
 }
+@media (max-width: 766px) {
+  .mt-csm-3{
+    margin-top: 1rem !important;
+  }
+}
 
