@@ -1,19 +1,17 @@
-.slide-banner{
-    max-width: 200px;
+.slide-banner {
+  max-width: 200px;
 }
-.custom-col-md-3{
-    flex: 0 0 18.36%;
-    max-width: 18.36%;
+.custom-col-lg-3{
+    flex: 0 0 18.33% !important;
 }
-@media screen and (max-width:991px) {
-    .custom-col-md-3{
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
+@media screen and (max-width:991px){
+  .custom-col-lg-3{
+    flex: 0 0 50% !important;
 }
-@media screen and (min-width:766px) and (max-width:992) {
-    .custom-col-md-3{
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
+}
+@media screen and (min-width: 540px) and (max-width: 991px){
+  .custom-col-lg-3{
+    flex: 0 0 40% !important;
+    margin-right: 50px;
+}
 }

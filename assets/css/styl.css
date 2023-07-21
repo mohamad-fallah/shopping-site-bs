@@ -2,41 +2,43 @@
 @import url(../css/_topnav.css);
 @import url(../css/_slider.css);
 
-body,*{
+body,
+* {
   font-family: IRANYekanX !important;
   font-weight: 500;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-a{
-	text-decoration: none;
+a {
+  text-decoration: none;
 }
-li,ol,ul{
-	margin: 0;
-	padding: 0;
-	list-style: none;
+li,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-p{
+p {
   margin: 0;
 }
 @media (max-width: 766px) {
-  .mt-csm-3{
+  .mt-csm-3 {
     margin-top: 1rem !important;
   }
 }
 @media (max-width: 991px) {
-  .mt-clg-3{
+  .mt-clg-3 {
     margin-top: 1rem !important;
   }
 }
 @media (min-width: 1200px) {
   .container,
-   .container-sm,
-    .container-md,
-     .container-lg,
-      .containerxl {
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
     max-width: 1340px !important;
   }
 }
-
