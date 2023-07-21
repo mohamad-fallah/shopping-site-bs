@@ -1,17 +1,23 @@
 .slide-banner {
   max-width: 200px;
 }
-.custom-col-lg-3{
-    flex: 0 0 18.33% !important;
+.custom-col-lg-3 {
+  flex: 0 0 21% !important;
 }
-@media screen and (max-width:991px){
-  .custom-col-lg-3{
+.custom-col-lg-6 {
+  flex: 0 0 58% !important;
+}
+@media screen and (max-width: 991px) {
+  .custom-col-lg-3 {
     flex: 0 0 50% !important;
+  }
+  .custom-col-lg-6 {
+    flex: 0 0 100% !important;
+  }
 }
-}
-@media screen and (min-width: 540px) and (max-width: 991px){
-  .custom-col-lg-3{
+@media screen and (min-width: 540px) and (max-width: 991px) {
+  .custom-col-lg-3 {
     flex: 0 0 40% !important;
     margin-right: 50px;
-}
+  }
 }

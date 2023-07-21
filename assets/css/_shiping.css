@@ -1,0 +1,17 @@
+.shiping-wrapper img{
+    width: 47px;
+    height: 41px;
+    margin-left: 12px;
+}
+.shiping-wrapper-2 img{
+    width: 36px;
+    height: 37px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.shiping-wrapper p{
+    font-size: 14px;
+}
+.text-color-ct1{
+    color: rgba(0, 0, 0, 0.573);
+}
