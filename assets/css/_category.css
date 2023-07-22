@@ -1,0 +1,14 @@
+.custom-img-cat{
+    width: 100px;
+    height: 86px;
+}
+.custom-font-cat{
+    font-size: 13px;
+}
+.cat-hover{
+transition: all 0.5s ease;
+}
+.cat-hover:hover{
+    box-shadow:  0 0 7px 1px #ccc;
+    z-index: 2;
+}

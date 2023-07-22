@@ -701,7 +701,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -1382,7 +1382,7 @@ progress {
     flex: 0 0 auto;
     width: 8.33333333%;
   }
-  .col-lg-2 {
+  mb-2.col-lg-2 {
     flex: 0 0 auto;
     width: 16.66666667%;
   }

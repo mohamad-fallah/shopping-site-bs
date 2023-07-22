@@ -2,7 +2,8 @@
 @import url(../css/_topnav.css);
 @import url(../css/_slider.css);
 @import url(../css/_shiping.css);
-
+@import url(../css/_ads.css);
+@import url(../css/_category.css);
 body,
 * {
   font-family: IRANYekanX !important;
@@ -32,6 +33,9 @@ p {
 @media (max-width: 991px) {
   .mt-clg-3 {
     margin-top: 1rem !important;
+  }
+  .mb-cmd-1{
+    margin-bottom: 0.5rem !important;
   }
 }
 @media (min-width: 1200px) {
