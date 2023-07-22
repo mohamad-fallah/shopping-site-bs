@@ -13,6 +13,9 @@
 .custom-nav-tabs .nav-link:hover, .custom-nav-tabs .nav-link:focus{
     border-color: transparent;
 }
+.offer-detail{
+    flex: 0 0 50%;
+}
 .offer-detail a{
     font-size: 16px;
     color: #9891ff;
@@ -34,36 +37,87 @@
 }
 .count-down-timer span{
     background-color: #efefef;
-    margin: 10px;
+    margin: 11px;
     width: 30px;
     height: 30px;
     display: inline-block;
+    font-size: 14px;
 }
 .count-down-timer #demo #day{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border-radius: 100%;
 }
 .count-down-timer #demo #hours{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border-radius: 100%;
 }
 .count-down-timer #demo #minutes{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border-radius: 100%;
 }
 .count-down-timer #demo #seconds{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border-radius: 100%;
+}
+.offer-expire-text{
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 18px;
+}
+.offer-expire-text .offer-expire-text-inner{
+    padding: 10px;
+    font-size: 17px;
+    color: black !important;
+}
+#day,#hours,#minutes,#seconds{
+    position: relative;
+}
+#demo #day::after{
+    content: 'روز';
+    position: absolute;
+    top: 42px;
+    right: 8px;
+}
+#demo #hours::after{
+    content: 'ساعت';
+    position: absolute;
+    top: 42px;
+    right: 0px;
+}
+#demo #minutes::after{
+    content: 'دقیقه';
+    position: absolute;
+    top: 42px;
+    right: 0px;
+}
+#demo #seconds::after{
+    content: 'ثانیه';
+    position: absolute;
+    top: 42px;
+    right: 0px;
+}
+.offer-product-image{
+    overflow: hidden;
+    height: 240px;
+}
+.offer-product-image img{
+    width: 240px;
+}
+.offer-product-image:hover img.first-img,.offer-product-image:hover img.second-img {
+    transform: translateY(-240px);
+}
+.offer-product-image .first-img,.offer-product-image .second-img{
+    transition: all 0.5s ease;
 }
