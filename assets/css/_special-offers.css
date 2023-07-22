@@ -1,0 +1,69 @@
+.custom-nav-tabs .nav-link{
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-size: 15px;
+    color: rgb(52, 52, 52);
+}
+.custom-nav-tabs .nav-link.active, .custom-nav-tabs .nav-item.show .nav-link{
+    color: rgb(238, 90, 90);
+    background-color: transparent;
+    border-color: transparent;
+}
+.custom-nav-tabs .nav-link:hover, .custom-nav-tabs .nav-link:focus{
+    border-color: transparent;
+}
+.offer-detail a{
+    font-size: 16px;
+    color: #9891ff;
+}
+.offer-rating{
+    color: rgb(206, 177, 14) !important;
+}
+.offer-price s{
+    color: red;
+    font-size: 16px;
+}
+.offer-price span{
+    font-size: 16px;
+    color: #565555;
+}
+.offer-detail .count-down-timer{
+    font: 17px;
+    color: #565555;
+}
+.count-down-timer span{
+    background-color: #efefef;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.count-down-timer #demo #day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.count-down-timer #demo #hours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.count-down-timer #demo #minutes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.count-down-timer #demo #seconds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
