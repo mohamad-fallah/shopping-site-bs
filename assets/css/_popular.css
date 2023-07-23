@@ -1,9 +1,6 @@
 .p-title{
     font-size: 16px;
 }
-.p-price{
-
-}
 .p-img{
     max-width: 175px;
     align-self: center;
@@ -24,4 +21,13 @@
 }
 .text-p-f{
     font-size: 15px;
+}
+.p-imgg{
+    max-width: 175px;
+    align-self: center;
+    margin-top: 1rem;
+}
+.bdlw{
+    border-left: 1px solid #dcdcdc;
+    border-bottom: 1px solid #efefef;
 }
