@@ -1,3 +1,4 @@
+
 var now = new Date().getTime();
 var countDownDuration = 10 * 20 * 10 * 60 * 1000; // 365 روز به میلی‌ثانیه
 var countDownDate = now + countDownDuration;
@@ -47,3 +48,21 @@ var x = setInterval(function() {
         } 
     }
 }, 1000);
+
+$('.owl-carousel').owlCarousel({
+    rtl:true,
+    loop:true,
+    margin:0,
+    autoplay: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})

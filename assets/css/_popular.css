@@ -1,0 +1,27 @@
+.p-title{
+    font-size: 16px;
+}
+.p-price{
+
+}
+.p-img{
+    max-width: 175px;
+    align-self: center;
+    margin-top: 1rem;
+}
+.custom-card{
+    border: none;
+    border-radius: 0;
+}
+.hvp{
+    padding: 1px 5px 5px 5px;
+}
+.custom-card:hover{
+    box-shadow: 0 0 10px 3px #efefef;
+    z-index: 1;
+    cursor: pointer;
+    border-top: 3px solid #F8F9FA;
+}
+.text-p-f{
+    font-size: 15px;
+}

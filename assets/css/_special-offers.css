@@ -121,3 +121,24 @@
 .offer-product-image .first-img,.offer-product-image .second-img{
     transition: all 0.5s ease;
 }
+.s-o-box-shadow{
+    box-shadow: 0 0 1px 1px #efefef;
+    z-index: 1;
+}
+.offer-section-title{
+    margin-left: 15px;
+    border-bottom: 2px solid red;
+    right: 300px;
+    padding-bottom: 4px;
+    font-size: 22px;
+    top: 1px
+}
+@media screen and (max-width:767px){
+    .offer-section-title{
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .ct-nav-sp{
+        padding: 15px 12px;
+    }
+}

@@ -5,6 +5,8 @@
 @import url(../css/_ads.css);
 @import url(../css/_category.css);
 @import url(../css/_special-offers.css);
+@import url(../css/_popular.css);
+@import url(../css/_banner.css);
 body,
 * {
   font-family: IRANYekanX !important;

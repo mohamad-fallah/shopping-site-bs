@@ -6,6 +6,7 @@
     <title>فروشگاه اینترنتی</title>
     <link rel="stylesheet" href="assets/css/bootstrap.rtl.css">
     <link rel="stylesheet" href="assets/css/styl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 </head>
 <html>
@@ -731,17 +732,18 @@
       <div class="row">
         <div class="col-sm-12">
           <nav>
-            <div class="nav nav-tabs custom-nav-tabs" dir="ltr" id="nav-tab" role="tablist">
-              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">تکنولوژی</button>
-              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">بازی و سرگرمی</button>
-              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">موبایل و تبلت</button>
+            <div class="nav nav-tabs custom-nav-tabs" id="nav-tab" role="tablist">
+              <p class="offer-section-title">پیشنهاد های ویژه امروز</p>
+              <button class="ct-nav-sp nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">تکنولوژی</button>
+              <button class="ct-nav-sp nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">بازی و سرگرمی</button>
+              <button class="ct-nav-sp nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">موبایل و تبلت</button>
             </div>
           </nav>
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
               <div class="container">
                 <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative">
+                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative s-o-box-shadow">
                     <div class="after-expire position-absolute"><div class="offer-expire-text-inner badge bg-warning"></div></div>
                     <div class="offer-blur d-flex justify-content-between">
                      <div class="offer-product-image">
@@ -759,7 +761,7 @@
                     </div>
                     </div>
                   </div>
-                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative">
+                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative s-o-box-shadow">
                     <div class="after-expire position-absolute"><div class="offer-expire-text-inner badge bg-warning"></div></div>
                     <div class="offer-blur d-flex justify-content-between">
                      <div class="offer-product-image">
@@ -777,7 +779,7 @@
                     </div>
                     </div>
                   </div>
-                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative">
+                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative s-o-box-shadow">
                     <div class="after-expire position-absolute"><div class="offer-expire-text-inner badge bg-warning"></div></div>
                     <div class="offer-blur d-flex justify-content-between">
                      <div class="offer-product-image">
@@ -795,7 +797,7 @@
                     </div>
                     </div>
                   </div>
-                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative">
+                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative s-o-box-shadow">
                     <div class="after-expire position-absolute"><div class="offer-expire-text-inner badge bg-warning"></div></div>
                     <div class="offer-blur d-flex justify-content-between">
                      <div class="offer-product-image">
@@ -816,21 +818,276 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">...</div>
-            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative s-o-box-shadow">
+                    <div class="after-expire position-absolute"><div class="offer-expire-text-inner badge bg-warning"></div></div>
+                    <div class="offer-blur d-flex justify-content-between">
+                     <div class="offer-product-image">
+                      <div><img  class="img-fluid mt-3 first-img" src="assets/img/tv1.png" alt="#"></div>
+                      <div><img  class="img-fluid mt-3 second-img" src="assets/img/tv2.png" alt="#"></div>
+                     </div>
+                    <div class="my-4 offer-detail"><a href="#" class="text-decoration-none">تلویزیون سامسونگ 2023</a>
+                      <div class="mt-4"><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-regular fa-star"></i><i class="offer-rating fa-regular fa-star"></i></div>
+                      <div class="offer-price mt-2"><s class="me-2 opacity-75">۳۷,۴۰۰,۰۰ تومان </s><span>۳۴,۷۰۰,۰۰ تومان</span></div>
+                      <div class="count-down-timer mt-4">
+                        <p>فرصت باقی مانده تا پایان این پیشنهاد</p>
+                        <div class="demos mt-3 d-flex justify-content-center position-relative mt-4" id="demo" dir="ltr" >
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative s-o-box-shadow">
+                    <div class="after-expire position-absolute"><div class="offer-expire-text-inner badge bg-warning"></div></div>
+                    <div class="offer-blur d-flex justify-content-between">
+                     <div class="offer-product-image">
+                      <div><img  class="img-fluid mt-3 first-img" src="assets/img/s231.png" alt="#"></div>
+                      <div><img  class="img-fluid mt-3 second-img" src="assets/img/s232.png" alt="#"></div>
+                     </div>
+                    <div class="my-4 offer-detail"><a href="#" class="text-decoration-none">موبایل s23 ultra</a>
+                      <div class="mt-4"><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-regular fa-star"></i><i class="offer-rating fa-regular fa-star"></i></div>
+                      <div class="offer-price mt-2"><s class="me-2 opacity-75">۵۲,۵۰۰,۰۰۰ تومان </s><span>۵۰,۵۰,۰۰۰ تومان</span></div>
+                      <div class="count-down-timer mt-4">
+                        <p>فرصت باقی مانده تا پایان این پیشنهاد</p>
+                        <div class="demos mt-3 d-flex justify-content-center position-relative mt-4" id="demo" dir="ltr" >
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative s-o-box-shadow">
+                    <div class="after-expire position-absolute"><div class="offer-expire-text-inner badge bg-warning"></div></div>
+                    <div class="offer-blur d-flex justify-content-between">
+                     <div class="offer-product-image">
+                      <div><img  class="img-fluid mt-3 first-img" src="assets/img/wach1.png" alt="#"></div>
+                      <div><img  class="img-fluid mt-3 second-img" src="assets/img/wach2.png" alt="#"></div>
+                     </div>
+                    <div class="my-4 offer-detail"><a href="#" class="text-decoration-none">ساعت هوشمند اپل مدل 23</a>
+                      <div class="mt-4"><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-regular fa-star"></i><i class="offer-rating fa-regular fa-star"></i></div>
+                      <div class="offer-price mt-2"><s class="me-2 opacity-75">۲۴,۶۷۰,۵۵ تومان </s><span>۲۰,۶۷,۰۵۵ تومان</span></div>
+                      <div class="count-down-timer mt-4">
+                        <p>فرصت باقی مانده تا پایان این پیشنهاد</p>
+                        <div class="demos mt-3 d-flex justify-content-center position-relative mt-4" id="demo" dir="ltr" >
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative s-o-box-shadow">
+                    <div class="after-expire position-absolute"><div class="offer-expire-text-inner badge bg-warning"></div></div>
+                    <div class="offer-blur d-flex justify-content-between">
+                     <div class="offer-product-image">
+                      <div><img  class="img-fluid mt-3 first-img" src="assets/img/iphad1.png" alt="#"></div>
+                      <div><img  class="img-fluid mt-3 second-img" src="assets/img/iphad2.png" alt="#"></div>
+                     </div>
+                    <div class="my-4 offer-detail"><a href="#" class="text-decoration-none">تبلت ایپد پرو 2022</a>
+                      <div class="mt-4"><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-regular fa-star"></i><i class="offer-rating fa-regular fa-star"></i></div>
+                      <div class="offer-price mt-2"><s class="me-2 opacity-75">۶۷,۸۷۰,۰۰ تومان </s><span>۶۰,۸۷۰,۰۰ تومان</span></div>
+                      <div class="count-down-timer mt-4">
+                        <p>فرصت باقی مانده تا پایان این پیشنهاد</p>
+                        <div class="demos mt-3 d-flex justify-content-center position-relative mt-4" id="demo" dir="ltr" >
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative s-o-box-shadow">
+                    <div class="after-expire position-absolute"><div class="offer-expire-text-inner badge bg-warning"></div></div>
+                    <div class="offer-blur d-flex justify-content-between">
+                     <div class="offer-product-image">
+                      <div><img  class="img-fluid mt-3 first-img" src="assets/img/tv1.png" alt="#"></div>
+                      <div><img  class="img-fluid mt-3 second-img" src="assets/img/tv2.png" alt="#"></div>
+                     </div>
+                    <div class="my-4 offer-detail"><a href="#" class="text-decoration-none">تلویزیون سامسونگ 2023</a>
+                      <div class="mt-4"><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-regular fa-star"></i><i class="offer-rating fa-regular fa-star"></i></div>
+                      <div class="offer-price mt-2"><s class="me-2 opacity-75">۳۷,۴۰۰,۰۰ تومان </s><span>۳۴,۷۰۰,۰۰ تومان</span></div>
+                      <div class="count-down-timer mt-4">
+                        <p>فرصت باقی مانده تا پایان این پیشنهاد</p>
+                        <div class="demos mt-3 d-flex justify-content-center position-relative mt-4" id="demo" dir="ltr" >
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative s-o-box-shadow">
+                    <div class="after-expire position-absolute"><div class="offer-expire-text-inner badge bg-warning"></div></div>
+                    <div class="offer-blur d-flex justify-content-between">
+                     <div class="offer-product-image">
+                      <div><img  class="img-fluid mt-3 first-img" src="assets/img/s231.png" alt="#"></div>
+                      <div><img  class="img-fluid mt-3 second-img" src="assets/img/s232.png" alt="#"></div>
+                     </div>
+                    <div class="my-4 offer-detail"><a href="#" class="text-decoration-none">موبایل s23 ultra</a>
+                      <div class="mt-4"><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-regular fa-star"></i><i class="offer-rating fa-regular fa-star"></i></div>
+                      <div class="offer-price mt-2"><s class="me-2 opacity-75">۵۲,۵۰۰,۰۰۰ تومان </s><span>۵۰,۵۰,۰۰۰ تومان</span></div>
+                      <div class="count-down-timer mt-4">
+                        <p>فرصت باقی مانده تا پایان این پیشنهاد</p>
+                        <div class="demos mt-3 d-flex justify-content-center position-relative mt-4" id="demo" dir="ltr" >
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative s-o-box-shadow">
+                    <div class="after-expire position-absolute"><div class="offer-expire-text-inner badge bg-warning"></div></div>
+                    <div class="offer-blur d-flex justify-content-between">
+                     <div class="offer-product-image">
+                      <div><img  class="img-fluid mt-3 first-img" src="assets/img/wach1.png" alt="#"></div>
+                      <div><img  class="img-fluid mt-3 second-img" src="assets/img/wach2.png" alt="#"></div>
+                     </div>
+                    <div class="my-4 offer-detail"><a href="#" class="text-decoration-none">ساعت هوشمند اپل مدل 23</a>
+                      <div class="mt-4"><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-regular fa-star"></i><i class="offer-rating fa-regular fa-star"></i></div>
+                      <div class="offer-price mt-2"><s class="me-2 opacity-75">۲۴,۶۷۰,۵۵ تومان </s><span>۲۰,۶۷,۰۵۵ تومان</span></div>
+                      <div class="count-down-timer mt-4">
+                        <p>فرصت باقی مانده تا پایان این پیشنهاد</p>
+                        <div class="demos mt-3 d-flex justify-content-center position-relative mt-4" id="demo" dir="ltr" >
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative s-o-box-shadow">
+                    <div class="after-expire position-absolute"><div class="offer-expire-text-inner badge bg-warning"></div></div>
+                    <div class="offer-blur d-flex justify-content-between">
+                     <div class="offer-product-image">
+                      <div><img  class="img-fluid mt-3 first-img" src="assets/img/iphad1.png" alt="#"></div>
+                      <div><img  class="img-fluid mt-3 second-img" src="assets/img/iphad2.png" alt="#"></div>
+                     </div>
+                    <div class="my-4 offer-detail"><a href="#" class="text-decoration-none">تبلت ایپد پرو 2022</a>
+                      <div class="mt-4"><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-solid fa-star"></i><i class="offer-rating fa-regular fa-star"></i><i class="offer-rating fa-regular fa-star"></i></div>
+                      <div class="offer-price mt-2"><s class="me-2 opacity-75">۶۷,۸۷۰,۰۰ تومان </s><span>۶۰,۸۷۰,۰۰ تومان</span></div>
+                      <div class="count-down-timer mt-4">
+                        <p>فرصت باقی مانده تا پایان این پیشنهاد</p>
+                        <div class="demos mt-3 d-flex justify-content-center position-relative mt-4" id="demo" dir="ltr" >
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- end special offers -->
-
-
-
-
+    <!-- start popular section -->
+    <section class="container mt-5 ">
+      <p class="offer-section-title">پر فروش ترین محصولات</p>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="owl-carousel owl-theme bg-white">
+              <a href="#" class="text-decoration-none">
+                <div class="hvp">
+                  <div class="card custom-card">
+                    <img src="assets/img/A24.png" class="p-img card-img-top" alt="#">
+                    <div class="card-body text-center">
+                      <p class="card-text">
+                        <P class="p-title">گوشی سامسنوگ  مدل A24</P>
+                        <P class="p-price mt-3 opacity-75"><s class="opacity-50 text-p-f">۲۵,۰۰۰,۰۰۰تومان</s>۲۴,۴۰۰,۳۰۰تومان<span class="mt-1 badge rounded-pill text-bg-danger">۱۵%</span></P>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <div class="hvp">
+                  <div class="card custom-card">
+                    <img src="assets/img/A50.png" class="p-img card-img-top" alt="#">
+                    <div class="card-body text-center">
+                      <p class="card-text">
+                        <P class="p-title">گوشی سامسنوگ  مدل A54</P>
+                        <P class="p-price mt-3 opacity-75">۳۴,۰۰۰,۰۰۰ تومان</P>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <div class="hvp">
+                  <div class="card custom-card">
+                    <img src="assets/img/ihone1.png" class="p-img card-img-top" alt="#">
+                    <div class="card-body text-center">
+                      <p class="card-text">
+                        <P class="p-title"> گوشی اپل مدل 14promax</P>
+                        <P class="p-price mt-3 opacity-75"><s class="opacity-50 text-p-f">۲۵,۰۰۰,۰۰۰تومان</s>۲۴,۴۰۰,۳۰۰تومان<span class="mt-1 badge rounded-pill text-bg-danger">۱۷%</span></P>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <div class="hvp">
+                  <div class="card custom-card">
+                    <img src="assets/img/s23u.png" class="p-img card-img-top" alt="#">
+                    <div class="card-body text-center">
+                      <p class="card-text">
+                        <P class="p-title">گوشی سامسنوگ مدل s23ultra</P>
+                        <P class="p-price mt-3 opacity-75">۶۴,۰۰۰,۰۰۰ تومان</P>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <div class="hvp">
+                  <div class="card custom-card">
+                    <img src="assets/img/shia.png" class="p-img card-img-top" alt="#">
+                    <div class="card-body text-center">
+                      <p class="card-text">
+                        <P class="p-title">گوشی شیاعومی مدل 13max</P>
+                        <P class="p-price mt-3 opacity-75"><s class="opacity-50 text-p-f">۲۵,۰۰۰,۰۰۰تومان</s>۲۴,۴۰۰,۳۰۰تومان<span class="mt-1 badge rounded-pill text-bg-danger">۲۵%</span></P>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+        </div>
+      </div>
+    </section>
+    <!-- end popular section -->
+    <!-- start  baner section 1-->
+    <div class="container mt-5 banner-section-1">
+      <div class="row">
+        <div class="col-sm-12 col-md-3 banner-img-hover">
+          <a href="#">
+            <img class="img-fluid" src="assets/img/ff2d38309258647af662fd6fdabda97103b14816_1689675694.png" alt="#">
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-3 banner-img-hover">
+          <a href="#">
+            <img class="img-fluid" src="assets/img/694eea9afdc1a1f7d96e67f3923f9240f39a1f32_1689764077.png" alt="#">
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-3 banner-img-hover">
+          <a href="#">
+            <img class="img-fluid" src="assets/img/66365cc079fbe146271a57bbfc0d12f65fd5dd36_1673776059.png" alt="#">
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-3 banner-img-hover">
+          <a href="#">
+            <img class="img-fluid" src="assets/img/5c238d094739a8a42decbbffc7d738063db3e370_1689963299.png" alt="#">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end baner section 1 -->
 
    
 
+
     <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
 </body>
 </html>
