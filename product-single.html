@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>صفحه محصول</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.rtl.css" />
+    <link rel="stylesheet" href="assets/css/styl.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+  </head>
+  <body class="bg-light">
+    <!-- Modal -->
+    <!-- start top nav -->
+    <div class="modal fade" id="login-form" tabindex="-1" dir="rtl">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h1
+              class="modal-title text-center fs-5 w-100"
+              id="exampleModalLabel"
+            >
+              ورود به سایت
+            </h1>
+          </div>
+          <div class="modal-body">
+            <form class="login-form">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label m-0"
+                  >ایمیل</label
+                >
+                <input
+                  type="email"
+                  class="form-control form-control-sm"
+                  id="exampleInputEmail1"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label m-0"
+                  >کلمه عبور</label
+                >
+                <input
+                  type="password"
+                  class="form-control form-control-sm"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input me-0 mt-2"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label pt-1" for="exampleCheck1"
+                  >مرا به خاطر بسپار</label
+                >
+              </div>
+              <button type="submit" class="btn btn-success btn-sm w-100 mt-2">
+                ورود
+              </button>
+            </form>
+          </div>
+          <div class="modal-footer border-0 pt-0 d-flex justify-content-around">
+            <a class="text-decoration-none" href="#">فراموشی رمز عبور</a>
+            <a class="text-decoration-none" href="#">عضویت در سایت</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-top-nav">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-sm-12 col-md-6 d-none d-md-block">
+            <p class="custom-top-nav-right">
+              ارسال رایگان - ضمانت بازگشت وجه 30 روزه
+            </p>
+          </div>
+          <div
+            class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center"
+          >
+            <nav class="nav custom-top-nav-left">
+              <a class="nav-link border-end d-none d-xl-block" href="#"
+                >آدرس فروشگاه</a
+              >
+              <a class="nav-link border-end" href="#">پیگیری سفارشات</a>
+              <a class="nav-link border-end" href="#">تلفن : 09393431257</a>
+              <a class="nav-link border-end d-none d-xl-block" href="#"
+                >ضمانت کیفیت محصولات</a
+              >
+            </nav>
+          </div>
+        </div>
+        <div class="container mt-4 pb-4">
+          <div class="row">
+            <div class="col-sm-12 col-md-8">
+              <div class="input-group custom-nav-hover">
+                <button
+                  class="btn btn-secondary dropdown-toggle custom-btn-font-size"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                >
+                  دسته بندی ها
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">موبایل</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">قطعات کامپیوتر</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">پوشاک</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">لوازم خانگی</a></li>
+                </ul>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="جستجو بیش از ۲۵۰,۰۰۰ کالا ..."
+                />
+                <button
+                  class="btn btn-success custom-btn-font-size"
+                  type="button"
+                >
+                  بگرد
+                </button>
+              </div>
+            </div>
+            <div
+              class="col-sm-12 col-md-3 d-flex justify-content-center align-items-center mt-csm-3"
+            >
+              <div class="dropdown">
+                <a
+                  class="btn btn-link text-decoration-none custom-text-white dropdown-toggle custom-dropdown-toggle border-0 shop-card"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  <span class="me-2">سبد خرید</span
+                  ><i class="icn1 fa-solid fa-cart-plus"></i>
+                </a>
+                <ul class="dropdown-menu basket">
+                  <li>
+                    <a
+                      class="dropdown-item p-1 d-flex justify-content-around"
+                      href="#"
+                    >
+                      <img
+                        class="img-thumbnail"
+                        src="assets/img/202109142329172726.jpg"
+                        alt="iphone-pic"
+                      />
+                      <ul>
+                        <li class="text-demibold">گوشی موبایل اپل</li>
+                        <li class="text-demibold">iphone 14</li>
+                        <li class="text-regular">۴۵,۱۰۰,۰۰۰ تومان</li>
+                      </ul>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                      ></button>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item p-1 d-flex justify-content-around"
+                      href="#"
+                    >
+                      <img
+                        class="img-thumbnail"
+                        src="assets/img/iPad-Pro-e1672343010911.jpg"
+                        alt="iphone-pic"
+                      />
+                      <ul>
+                        <li class="text-demibold">تبلت اپل</li>
+                        <li class="text-demibold">iphad pro 2023</li>
+                        <li class="text-regular">۳۵,۴۰۰,۳۰۴ تومان</li>
+                      </ul>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                      ></button>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item p-1 d-flex justify-content-around"
+                      href="#"
+                    >
+                      <img
+                        class="img-thumbnail"
+                        src="assets/img/mac.jpg"
+                        alt="iphone-pic"
+                      />
+                      <ul>
+                        <li class="text-demibold">لپ تاپ اپل</li>
+                        <li class="text-demibold">nacbook 2023</li>
+                        <li class="text-regular">۹۷,۸۰۰,۰۰۰ تومان</li>
+                      </ul>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                      ></button>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="custom-nav w-100 position-relative">
+        <div class="container">
+          <div class="row">
+            <nav
+              class="navbar navbar-expand-lg navbar-dark custom-navbar w-100"
+            >
+              <div class="container-fluid">
+                <a class="navbar-brand ms-3" href="#">فروشگاه</a>
+                <button
+                  class="navbar-toggler custom-navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                >
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav custom-navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active ms-1 custom-text-white" href="#"
+                        >خانه</a
+                      >
+                    </li>
+                    <li class="nav-item dropdown ms-1">
+                      <a
+                        class="nav-link dropdown-toggle custom-text-white"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        لوازم خانگی
+                      </a>
+                      <ul
+                        class="dropdown-menu w-100 dropdown-image border-0 shadow"
+                      >
+                        <img
+                          src="assets/img/honces-png-25.png"
+                          class="d-none d-lg-block"
+                          alt="home"
+                        />
+                        <div class="container">
+                          <div class="row w-100">
+                            <div class="col-sm-12 col-md-12 col-lg-3">
+                              <ul class="nav flex-column ps-3">
+                                <li class="nav-item">
+                                  <a class="nav-link active" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    ماشین لباس شویی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    یخچال و فریزر</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> اجاق
+                                    گاز</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> جارو
+                                    برقی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    ماشین ظرف شویی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    مبلمان</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    فرش</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> قهوه
+                                    ساز</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-3">
+                              <ul class="nav flex-column ps-3">
+                                <li class="nav-item">
+                                  <a class="nav-link active" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> چرخ
+                                    خیاطی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    ساعت</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    تابلو ها</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    میز</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    صندلی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> رخت
+                                    خواب</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    پتو</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> چای
+                                    ساز</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-1">
+                      <a
+                        class="nav-link dropdown-toggle custom-text-white"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        سوپر مارکت
+                      </a>
+                      <ul
+                        class="dropdown-menu w-100 dropdown-image border-0 shadow"
+                      >
+                        <img
+                          src="assets/img/Groceسسry-PNG-Pic.png"
+                          class="d-none d-lg-block"
+                          alt="home"
+                        />
+                        <div class="container">
+                          <div class="row w-100">
+                            <div class="col-sm-12 col-md-12 col-lg-3">
+                              <ul class="nav flex-column ps-3">
+                                <li class="nav-item">
+                                  <a class="nav-link active" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    لوازم شست و شو</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    بستنی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    آجیل</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    سبزیجات</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    شیرینی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    شکلات</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    خوراکی ها</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> قهوه
+                                    و چای</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-3">
+                              <ul class="nav flex-column ps-3">
+                                <li class="nav-item">
+                                  <a class="nav-link active" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    دستمال</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    یخچال و فریزر</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    کیک</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    نوشیدنی ها</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    تنقلات</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> گوشت
+                                    و مرغ</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    ماهی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    نوشابه</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-1">
+                      <a
+                        class="nav-link dropdown-toggle custom-text-white"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        لوازم تحریر
+                      </a>
+                      <ul
+                        class="dropdown-menu w-100 dropdown-image border-0 shadow"
+                      >
+                        <img
+                          src="assets/img/book.png"
+                          class="d-none d-lg-block"
+                          alt="home"
+                        />
+                        <div class="container">
+                          <div class="row w-100">
+                            <div class="col-sm-12 col-md-12 col-lg-3">
+                              <ul class="nav flex-column ps-3">
+                                <li class="nav-item">
+                                  <a class="nav-link active" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    مداد</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> پاک
+                                    کن</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    خودکار</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> روان
+                                    نویس</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    دفتر</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> کتاب
+                                    ها</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    تراش</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    کیف</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-3">
+                              <ul class="nav flex-column ps-3">
+                                <li class="nav-item">
+                                  <a class="nav-link active" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    کاغذ</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    لوازم اداری</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    لوازم مدرسه</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    دفترچه</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    میز</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    مدادرنگی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    ابزار رنگ آمیزی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    منگنه</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-1">
+                      <a
+                        class="nav-link dropdown-toggle custom-text-white"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        لوازم دیجیتال
+                      </a>
+                      <ul
+                        class="dropdown-menu w-100 dropdown-image border-0 shadow"
+                      >
+                        <img
+                          src="assets/img/Skjermbilde+2022-07-28+kl.+15.22.44.png"
+                          class="d-none d-lg-block"
+                          alt="home"
+                        />
+                        <div class="container">
+                          <div class="row w-100">
+                            <div class="col-sm-12 col-md-12 col-lg-3">
+                              <ul class="nav flex-column ps-3">
+                                <li class="nav-item">
+                                  <a class="nav-link active" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    موبایل</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    تبلت</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> لپ
+                                    تاپ</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    کامپیوتر</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    هدست</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    هنزفری</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    تلویزیون</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> ساعت
+                                    هوشمند</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-3">
+                              <ul class="nav flex-column ps-3">
+                                <li class="nav-item">
+                                  <a class="nav-link active" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    اسپیکر</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    شارژر</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> کابل
+                                    ها</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    کیبورد</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    مانیتور</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    میکروفون</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    لوازم هوشمند</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    لوازم برقی</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-1">
+                      <a
+                        class="nav-link dropdown-toggle custom-text-white"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        لوازم آرایشی
+                      </a>
+                      <ul
+                        class="dropdown-menu w-100 dropdown-image border-0 shadow"
+                      >
+                        <img
+                          src="assets/img/cosmetics-hd-image-free.png"
+                          class="d-none d-lg-block"
+                          alt="home"
+                        />
+                        <div class="container">
+                          <div class="row w-100">
+                            <div class="col-sm-12 col-md-12 col-lg-3">
+                              <ul class="nav flex-column ps-3">
+                                <li class="nav-item">
+                                  <a class="nav-link active" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> پاک
+                                    کننده</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> روشن
+                                    کننده</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    ویتامین سی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> لاک
+                                    ناخن</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> کرم
+                                    مرطوب کننده</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> آب
+                                    رسان</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    شامپو بدن</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    شامپو</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-3">
+                              <ul class="nav flex-column ps-3">
+                                <li class="nav-item">
+                                  <a class="nav-link active" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> دارو
+                                    های گیاهی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    لوازم پزشکی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> کرم
+                                    زیر چشم</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    ویتامین ای</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> رژ
+                                    لب</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    لوازم بهداشتی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i>
+                                    لوازم دارویی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fa-solid fa-angle-left"></i> مداد
+                                    آرایشی</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="nav-item ms-1">
+                      <a class="nav-link custom-text-white" href="#"
+                        >درباره ما</a
+                      >
+                    </li>
+                    <li class="nav-item ms-1">
+                      <a class="nav-link custom-text-white" href="#"
+                        >تماس با ما</a
+                      >
+                    </li>
+                    <a
+                      class="text-warning ms-2 mt-2 text-decoration-none"
+                      data-bs-toggle="modal"
+                      data-bs-target="#login-form"
+                      href="#"
+                      ><i class="fa-solid fa-user"></i>
+                      <strong>ورود به سایت </strong>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- end top nav -->
+    <!-- start product details -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-sm-12 bg-white">
+          <div>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb custom-breadcrumb">
+                <li class="breadcrumb-item"><a class="text-decoration-none" href="#">خانه</a></li>
+                <li class="breadcrumb-item active">گوشی موبایل</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container bg-white mt-5" style="margin-bottom: 300px">
+      <div class="row">
+        <div class="col-sm-12 col-md-5 border-end">
+                 <img class="img-fluid mt-3 first-img" src="assets/img/s231.png" alt="#">
+                </div>
+                <div class="col-sm-12 col-md-7">
+                    <h1 class="mt-4 product-page-title d-flex justify-content-between"><span>موبایل s23 ultra</span><span><i class="fa-regular fa-heart me-3"></i><i class="fa-solid fa-share-nodes me-3"></i><i class="fa-regular fa-bell"></i></span></h1>
+                    <div class="offer-rating product-page-rate mt-4"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                        <span class="ms-3">(5 دیدگاه برای این کالا)</span>
+                    </div>
+                    <div class="offer-price product-page-price mt-3"><s class="me-2 opacity-75">۵۲,۵۰۰,۰۰۰ تومان </s><span>۵۰,۵۰,۰۰۰ تومان</span></div>
+                    <p class="describe mt-5 pb-5 border-bottom">
+                        شاید در نگاه اول به سامسونگ Galaxy S23 Ultra تفاوتی با Galaxy S22 Ultra دیده نشود و سامسونگ به طراحی برنده خود دست نزده است. اما باید بدانید که این بار این گوشی هوشمند با کوله‌باری از تجربه و برطرف کردن مشکلات هرچند اندک گذشته وارد میدان رقابت با پرچمداران قدرتمند برند‌های دیگر شده و با لیاقت تمام همجون یک پرچمدار مقتدر، عملکرد درخشانی داشته است. شاید ظاهر این گوشی چندان تفاوتی با نسل قبلی نداشته باشد، اما فریم‌ها حالت خمیدگی کمتری دارند و حس و حال استفاده فریم تخت و جذابی را به شما می‌دهند. البته فریم‌های آلومینیومی این گوشی آنقدر تخت نیست که در استفاده طولانی مدت مشکلی برای دست به‌همراه داشته باشد. سامسونگ تلاش داشته تا از متریال بازیافت‌ پذیر برای این گوشی استفاده کند و می‌توانیم بگوییم در این زمینه به نسبت تمام پرچمداران دیگر عملکرد بسیار بهتری داشته است.
+                    </p>
+                    <div class="brand-cat m-3 d-flex justify-content-between"><span>برند : سامسونگ </span><span>دسته بندی : <span class="badge rounded-pill bg-primary me-1">موبایل</span><span class="badge rounded-pill bg-primary">تکنولوژی</span></span></div>
+                    <P class="mt-3 p-benefit">ویژگی های محصول</P>
+                    <ul class="nav flex-column footer-nav-custom my-3 ps-3">
+                        <li class="nav-item">
+                          <a class="nav-link ps-0"><i class="benfit-list fa-regular fa-circle-dot me-1"></i>فناوری صفحه‌نمایش :Dynamic AMOLED 2X</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link ps-0"><i class="benfit-list fa-regular fa-circle-dot me-1"></i>اندازه : 6.8</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link ps-0"><i class="benfit-list fa-regular fa-circle-dot me-1"></i>رزولوشن عکس : 200 مگاپیکسل</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ps-0"><i class="benfit-list fa-regular fa-circle-dot me-1"></i>نسخه سیستم عامل : Android 13</a>
+                          </li>
+                      </ul>
+                      <form action="">
+                        <div class="row"> 
+                            <div class="col-sm-2">
+                                <input type="text" class="form-control" id="validationCustom05" value="1">
+                                <div class="invalid-feedback">
+                                </div>
+                              </div>
+                          <div class="col-auto">
+                            <button type="submit" class="btn btn-success mb-3">افزودن به سبد خرید</button>
+                          </div>
+                      </div>
+                      </form>
+                </div>    
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="nav nav-tabs custom-nav-tabs-product-page" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">توضیحات</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">مشخصات فنی</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">نقد و بررسی</button>
+                            </li>
+                          </ul>
+                          <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+                          </div>
+                    </div>
+                </div>
+                   </div>     
+                   </div>
+                   </div>
+                   </div>
+    <!-- end product details -->
+    <!-- footer -->
+    <footer class="container-fluid mt-5 bg-white">
+      <div class="row">
+        <section class="container news-letter">
+          <div class="row py-4 bg-white">
+            <div
+              class="col-sm-12 col-md-3 news-letter-s1 d-flex justify-content-center flex-column mb-4"
+            >
+              <h6 class="mb-3">عضویت در خبرنامه</h6>
+              <p>
+                با عضویت از<strong class="text-danger"> 30% تخفیف</strong> بهره
+                مند شوید.
+              </p>
+            </div>
+            <div
+              class="col-sm-12 col-md-4 news-letter-s2 d-flex justify-content-center mb-4"
+            >
+              <p>
+                <strong> به 226,000+ مشترک ما</strong> بپیوندید و از تخفیف های
+                ویژه هفتگی مخصوص مشترکین خبرنامه بهره مند شوید.
+              </p>
+            </div>
+            <div
+              class="col-sm-12 col-md-5 news-letter-s3 d-flex justify-content-center align-items-center mb-4"
+            >
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control form-control-sm input-news-letter"
+                  placeholder="ادرس ایمیل..."
+                />
+                <button class="btn btn-danger px-4" type="button">
+                  اشتراک
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="container main-section-footer">
+          <div class="row my-5">
+            <div class="col-6 col-sm-6 col-md-3 mb-2">
+              <h5>اطلاعات</h5>
+              <ul class="nav flex-column footer-nav-custom">
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">درباره ما</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">نحوه ارسال</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">محصولات جدید</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">محصولات منتخب</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">حساب کاربری</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">سابقه خرید</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 mb-2">
+              <h5>خدمات مشتریان</h5>
+              <ul class="nav flex-column footer-nav-custom">
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">پنل کاربردی</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">سبد خرید</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">علاقه مندی ها</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">کاهش قیمت ها</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">سابقه ها</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">سفارشی کالای خارجی</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 mb-2">
+              <h5>حساب کاربری</h5>
+              <ul class="nav flex-column footer-nav-custom">
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">نقشه سایت</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">نقد و بررسی</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">نحوه ارسال</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">محصولات ویژه</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">خرید اقساطی</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-0" href="#">ویژه بازنشستگان</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 mb-2">
+              <h5>اطلاعات تماس</h5>
+              <div class="d-flex align-items-center justify-content-start">
+                <div class="support-rules mt-3">
+                  <i class="fa-solid fa-headset me-2"></i>
+                </div>
+                <div class="tel-support mt-3">
+                  <p>پشتیبانی 24 ساعته</p>
+                  <a href="tel:02686868" class="text-decoration-none"
+                    >02686868</a
+                  >
+                </div>
+              </div>
+              <div class="social-icon mt-3">
+                <ul class="nav d-flex justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link insta" href="#"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link tele" href="#"
+                      ><i class="fa-brands fa-telegram"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link faceb" href="#"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link tiwit" href="#"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link rsss" href="#"
+                      ><i class="fa-solid fa-rss"></i
+                    ></a>
+                  </li>
+                </ul>
+                <p class="text-center">
+                  کرج - هشتگرد - فاز یک - کوچه یک - پلاک 45
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <!-- footer -->
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

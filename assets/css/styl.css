@@ -9,6 +9,7 @@
 @import url(../css/_banner.css);
 @import url(../css/_footer.css);
 @import url(../css/_login-form.css);
+@import url(../css/_product-page.css);
 body,
 * {
   font-family: IRANYekanX !important;
