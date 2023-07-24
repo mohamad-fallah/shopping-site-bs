@@ -1,0 +1,77 @@
+.news-letter .row{
+    margin-top: -77px;
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.075) !important;
+}
+.news-letter-s1 h6{
+    font-size: 18px;
+}
+.news-letter-s1 h6 p{
+    font-size: 16px;
+}
+.news-letter-s2 p{
+    font-size: 16px;
+    line-height: 33px;
+}
+.input-news-letter::-webkit-input-placeholder{
+    font-size: 16px;
+}
+.input-news-letter{
+    border-radius: 0 !important;
+}
+.news-letter-s3 button{
+    font-size: 14px;
+}
+.main-section-footer h5{
+    font-size: 14px;
+    border-bottom: 3px solid #a09f9f;
+    padding-bottom: 10px;
+    display: inline-flex;
+}
+.footer-nav-custom li a{
+    font-size: 14px !important;
+    color: #4e4d4d !important;
+    transition: all 0.2s ease;
+}
+.footer-nav-custom li a:hover{
+    color: rgb(198, 0, 0) !important;
+    font-size: 15px !important;
+}
+.support-rules{
+    color: rgb(47, 118, 241);
+    font-size: 39px;
+}
+.tel-support p,.tel-support a{
+    font-size: 14px;
+    color: #4e4d4d;
+    transition: all 0.2s ease;
+}
+.tel-support a:hover{
+    color: rgb(198, 0, 0) !important;
+    font-size: 15px !important;
+}
+.social-icon{
+    font-size: 15px;
+}
+.social-icon ul li a{
+   color: #4e4d4d; 
+}
+.social-icon ul li a.tele:hover{
+    color: rgb(20, 179, 219);
+    font-size: 20px;
+} 
+.social-icon ul li a.insta:hover{
+    color: rgb(230, 61, 210);
+    font-size: 20px;
+} 
+.social-icon ul li a.faceb:hover{
+    color: rgb(5, 36, 233);
+    font-size: 20px;
+} 
+.social-icon ul li a.tiwit:hover{
+    color: rgb(48, 156, 239);
+    font-size: 20px;
+}
+.social-icon ul li a.rsss:hover{
+    color: rgb(234, 161, 44);
+    font-size: 20px;
+} 

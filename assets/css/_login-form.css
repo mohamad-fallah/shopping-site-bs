@@ -1,0 +1,15 @@
+.login-form input[type=email],.login-form input[type=password]{
+    border: none;
+    border-bottom: 2px solid #efefef !important;
+    border-radius: 0;
+}
+.login-form label {
+    font-size: 14px;
+}
+#login-form h5{
+    font-size: 18px;
+}
+#login-form .modal-footer{
+    font-size: 15px;
+    color: rgb(116, 153, 255);
+}

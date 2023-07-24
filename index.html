@@ -11,6 +11,37 @@
 </head>
 <html>
   <body class="bg-light">
+<!-- Modal -->
+<div class="modal fade" id="login-form" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h1 class="modal-title text-center fs-5 w-100 " id="exampleModalLabel">ورود به سایت</h1>
+      </div>
+      <div class="modal-body">
+        <form class="login-form">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">ایمیل</label>
+            <input type="email" class="form-control form-control-sm" id="exampleInputEmail1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">کلمه عبور</label>
+            <input type="password" class="form-control form-control-sm" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input me-0 mt-2" id="exampleCheck1">
+            <label class="form-check-label pt-1" for="exampleCheck1">مرا به خاطر بسپار</label>
+          </div>
+          <button type="submit" class="btn btn-success btn-sm w-100 mt-5">ورود</button>
+        </form>
+      </div>
+      <div class="modal-footer border-0 d-flex justify-content-around">
+        <a class="text-decoration-none" href="#">فراموشی رمز عبور</a>
+        <a class="text-decoration-none" href="#">عضویت در سایت</a>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- start top nav -->
     <div class="container-fluid bg-top-nav">
         <div class="container">
@@ -444,7 +475,9 @@
                               <li class="nav-item ms-1">
                                 <a class="nav-link custom-text-white" href="#">تماس با ما</a>
                               </li>
-                              <a class="text-warning ms-2 mt-2 text-decoration-none" href="#">تخفیفات ویژه</a>
+                              <a class="text-warning ms-2 mt-2 text-decoration-none" data-bs-toggle="modal" data-bs-target="#login-form" href="#"><i class="fa-solid fa-user"></i>
+                              <strong>ورود به سایت </strong>
+                              </a>
                             </ul>
                           </div>
                         </div>
@@ -1254,7 +1287,7 @@
     </div>
     <!-- banner 3 -->
     <!-- brand section -->
-    <section class="container mt-5 mb-2">
+    <section class="container mt-5" style="margin-bottom: 280px;">
       <p class="offer-section-title">برند های برتر سایت</p>
       <div class="row">
         <div class="col-sm-12">
@@ -1299,6 +1332,136 @@
       </div>
     </section>
     <!-- brand section -->
+    <!-- footer -->
+    <footer class="container-fluid mt-5 bg-white">
+      <div class="row">
+        <section class="container news-letter">
+          <div class="row py-4 bg-white">
+            <div class="col-sm-12 col-md-3 news-letter-s1 d-flex justify-content-center flex-column mb-4">
+                <h6 class="mb-3">عضویت در خبرنامه</h6>
+                <p>با عضویت از<strong class="text-danger"> 30% تخفیف</strong> بهره مند شوید.</p>
+            </div>
+            <div class="col-sm-12 col-md-4  news-letter-s2 d-flex justify-content-center mb-4">
+              <p>
+                <strong> به 226,000+ مشترک ما</strong> بپیوندید و از تخفیف های ویژه هفتگی مخصوص مشترکین خبرنامه بهره مند شوید.
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-5 news-letter-s3 d-flex justify-content-center align-items-center mb-4">
+              <div class="input-group">
+                <input type="text" class="form-control form-control-sm input-news-letter" placeholder="ادرس ایمیل...">
+                <button class="btn btn-danger px-4" type="button">اشتراک</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="container main-section-footer">
+          <div class="row my-5">
+          <div class="col-6 col-sm-6 col-md-3 mb-2">
+            <h5>اطلاعات</h5>
+            <ul class="nav flex-column footer-nav-custom">
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">درباره ما</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">نحوه ارسال</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">محصولات جدید</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">محصولات منتخب</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">حساب کاربری</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">سابقه خرید</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 mb-2">
+            <h5>خدمات مشتریان</h5>
+            <ul class="nav flex-column footer-nav-custom">
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">پنل کاربردی</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">سبد خرید</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">علاقه مندی ها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">کاهش قیمت ها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">سابقه ها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">سفارشی کالای خارجی</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 mb-2">
+            <h5>حساب کاربری</h5>
+            <ul class="nav flex-column footer-nav-custom">
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">نقشه سایت</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">نقد و بررسی</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">نحوه ارسال</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">محصولات ویژه</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">خرید اقساطی</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#">ویژه بازنشستگان</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 mb-2">
+            <h5>
+              اطلاعات تماس
+            </h5>
+            <div class="d-flex align-items-center justify-content-start">
+              <div class="support-rules mt-3"><i class="fa-solid fa-headset me-2"></i></div>
+              <div class="tel-support mt-3">
+                <p>پشتیبانی 24 ساعته</p>
+                <a href="tel:02686868" class="text-decoration-none">02686868</a>
+              </div>
+            </div>
+            <div class="social-icon mt-3">
+              <ul class="nav d-flex justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link insta" href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link tele" href="#"><i class="fa-brands fa-telegram"></i> </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link faceb" href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link tiwit" href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link rsss" href="#"><i class="fa-solid fa-rss"></i></a>
+                </li>
+              </ul>
+              <p class="text-center">کرج - هشتگرد - فاز یک - کوچه یک - پلاک 45</p>
+            </div>
+          </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <!-- footer -->
 
     <script src="assets/js/bootstrap.bundle.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
