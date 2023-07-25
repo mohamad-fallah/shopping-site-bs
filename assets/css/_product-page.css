@@ -50,3 +50,73 @@ p.describe{
 .custom-nav-tabs-product-page .nav-link.active,.nav-tabs .nav-item.show .nav-link{
     border-top: 3px solid red;
 }
+.custom-tab-pane-product h5{
+    color: #848181;
+}
+.product-desc {
+    font-size: 16px;
+    line-height: 36px;
+    background-color: #fbfbfb;
+}
+.product-allrate p{
+    font-size: 14px;
+}
+.progress-product-wrapper{
+    background-color: #fbfbfb;
+}
+.product-desc-2{
+    font-size: 16px;
+    line-height: 36px;
+}
+.product-desk-step li p{
+    border-right: 1px solid #a9a9a9;
+}
+.product-desk-step li{
+    border-right: 1px solid #a9a9a9;
+    font-size: 17px;
+    line-height: 46px;
+    color: #2f2f2f;
+}
+.product-desk-stepi{
+    color: #a9a9a9 !important;
+    font-size: 20px !important;
+    position: absolute !important;
+    top: -238px;
+    right: 31px;
+}
+.custom-tab-pane-detail ul li .key{
+    background-color: #f7f6f6;
+    flex: 0 0 20%;
+    height: 40px;
+    font-size: 15px;
+}
+.custom-tab-pane-detail ul li .valu{
+    background-color: #f7f6f6;
+    flex: 0 0 78%;
+    height: 40px;
+    font-size: 15px;
+}
+.va-pro{
+    vertical-align: -3px !important;
+}
+.custom-tab-pane-detail ul p{
+    font-size: 16px;
+}
+.add-comment p:nth-child(1){
+    font-size: 18px;
+    color: #505050;
+}
+.add-comment p:nth-child(2){
+    font-size: 18px;
+    color: #505050;
+}
+.media-c h5{
+    font-size: 16px;
+}
+.media-c h5,.media-c p{
+    margin-right: 1rem;
+}
+.media-c{
+    display: flex;
+    align-items: center;
+}
